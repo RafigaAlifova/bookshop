@@ -1,0 +1,17 @@
+.card{
+  width: 200px;
+  
+}
+.card .btn{
+  
+  background: #17A2B8;
+}
+.jumbotron{
+  background:url(../assets/images/jumbotron.jpg);
+  color:white;
+  padding: 40px 20px;
+}
+.jumbotron .btn{
+  background: #FFC107;
+  color:black
+}

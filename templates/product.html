@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kitab Magazasi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6650c37501.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../assets/common.css">
+  <link rel="stylesheet" href="../assets/product.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">KİTAB MAĞAZASI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Ana səhifə</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Haqqımızda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kateqoriyalar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./product.html">Ayın kitabı</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              İstifadəçi
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">...</a></li>
+              <li><a class="dropdown-item" href="#">...</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container mt-5">
+    <div class="row py-4 justify-content-between">
+      <img src="../assets/images/Inkognito.png" alt="book" width="200px" class="col-md-3"><br>
+      <div class="col-md-7 d-flex flex-column align-items-end justify-content-between">
+          <div class="text-end">
+            <h4>David Eagleman-incognito(beynin gizli həyatı)</h4>
+            <p><span class="newprice">12.00 AZN </span><span class="oldprice">15.00 AZN</span></p>
+    
+          </div>
+         
+        <div class="contenttext ">
+  
+          <p class="text-end">Tanınmış nevroloq D.İqlmenin 20-dən çox dilə tərcümə edilən və indidən klassik əsərə çevrilən bu kitabı
+            beynin sirli dünyasına təcrübələr, elmi biliklər və tarixi faktlar işığında səyahət edir. Kitab tibbi mövzuda
+            olsa da, müəllif yazarlıq məharətini və zəngin biliyini birləşdirərək elmi faktları sadə və müqayisəli dillə
+            oxucularına təqdim edir. Müəllif əsər boyu sədaqət geni, qumarbazlara çevrilən parkinson xəstələri, gen-mühit
+            əlaqəsi, “yaxşı” və “pis” gen, şüuraltı və qərarvermə mexanizmi, məsuliyyət anlayışı, beynin insan həyatında
+            rolu kimi bir çox mövzulara toxunur. Alim bu mövzuların beyinlə əlaqəsini izah etməklə kifayətlənmir, beyinlə
+            bağlı müxtəlif formullar və modellər irəli sürür. İnsan psixologiyası və davranışlarına neyron və gen
+            prizmasından baxmağı öyrədir. Elmi-populyar dildə yazılmış bu kitab xüsusən müəllimlər, psixoloqlar,
+            valideynlər, həkimlər üçün  bilikləri ehtiva edir.</p>
+  
+        </div>
+        <input class="btn btn-primary" type="submit" value="Səbətə əlavə et">
+      </div>
+   
+
+      
+
+      <div class="alert alert-warning w-100 text-center" role="alert">
+        Bu kitabdan cəmi 2 ədəd qalıb
+      </div>
+
+    </div>
+    <div class="features">
+      <h4>Xususiyyetler</h4>
+      <table class="table table-striped table-hover">
+        <tr>
+          <th>Xüsusiyyət</th>
+          <th>Açıqlama</th>
+        </tr>
+        <tr>
+          <td>Dil:</td>
+          <td>Azərbaycan</td>
+        </tr>
+        <tr>
+          <td>Janr:</td>
+          <td>Psixologiya</td>
+        </tr>
+        <tr>
+          <td>Müəllif:</td>
+          <td>David Eagleman</td>
+        </tr>
+        <tr>
+          <td>Nəşriyyat:</td>
+          <td>Qanun Nəşriyyatı</td>
+        </tr>
+      </table>
+      <br><br>
+    </div>
+    <div class="comments">
+      <!-- <img src="../assets/images/Inkognito.png" alt="book" width="200px"> -->
+      <h4 class="text-center">Serh yaz</h4><br>
+      <form class="w-100">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <label for="floatingTextarea2">Şərhiniz:</label>
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Bu kitabı oxumusunuzmu?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <!-- <form action="">
+        <h4>Serh yaz</b></h4><br>
+        <label for="name">Tam adiniz:</label><br>
+        <input type="text" id="name"><br><br>
+        <label for="checkbook">bu kitabi oxumusunuz?</label>
+        <input type="checkbox" id="checkbook"><br><br>
+        <label for="date">ne vaxt oxumusunuz?</label>
+        <input type="date" id="date"><br><br>
+        <label for="language">hansi dilde oxumusunuz?</label>
+        <select id="language">
+          <option value="Azerbaycan" selected>Azerbaycan</option>
+          <option value="Rus">Rus</option>
+          <option value="Ingilis">Ingilis</option>
+        </select><br><br>
+        <label for="evaluation">qiymetlendirme:</label>
+        <input type="range" name="" id="evaluation"><br><br>
+        <label for="comment">Şərhiniz::</label><br>
+        <textarea name="" id="comment" cols="30" rows="10"></textarea><br><br>
+        <input type="submit" value="Gonder">
+      </form> -->
+      <!-- <img src="../assets/images/Inkognito.png" alt="book" width="200px"> -->
+
+    </div>
+  </div>
+
+  <!-- <div class="socialmedias">
+        <ul>
+            <li><a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://youtube.com"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://linkedin.com"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://google.com"><i class="fab fa-google"></i></a></li>
+
+            <li><a href="./product.html#title" class="up"><i class="fas fa-angle-double-up"></i></a></li>
+
+        </ul>
+    </div> -->
+
+  <footer class="bg-dark text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: #1baca4; color:white">
+      Copyright © E-mağaza layihəsi
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

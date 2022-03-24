@@ -1,0 +1,121 @@
+:root {
+  --main: #1baca4;
+  --darkmain: #1c7771;
+  --letter: white;
+}
+.navbar-collapse{
+  justify-content: end;
+}
+nav{
+  background-color:var(--main);
+}
+/* .flex-column{
+  display: flex;
+  align-items:center;
+} */
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+.body {
+  width: 70%;
+  margin: auto;
+}
+#title {
+  padding: 30px 0px;
+  font-family: Lobster;
+  text-align: center;
+}
+#title a {
+  text-decoration: none;
+  color: var(--main);
+}
+input[type="submit"] {
+  background-color: var(--main);
+  color: var(--letter);
+  padding: 10px 20px;
+}
+/* nav {
+  background-color: var(--main);
+  border-bottom: black solid 1px;
+  border-top: black solid 1px;
+  width: 100%;
+  height: 65px;
+  line-height: 63px;
+}
+nav ul {
+  background-color: var(--main);
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  color: var(--letter);
+  text-transform: uppercase;
+}
+nav ul li {
+  border-right: 1px solid var(--letter);
+  width: 12%;
+  text-align: center;
+}
+nav ul li:first-child {
+  border-left: 1px solid var(--letter);
+}
+nav ul li:hover {
+  background-color: var(--letter);
+  color: var(--main);
+  cursor: pointer;
+}
+nav ul li:nth-child(4) {
+  background-color: var(--darkmain);
+  color: var(--letter);
+  cursor: default;
+}
+nav ul li:active {
+  color: var(--letter);
+  background-color: var(--darkmain);
+} 
+
+.socialmedias {
+  position: fixed;
+  top: 200px;
+  margin: 0;
+  right: 0px;
+}
+.socialmedias ul {
+  list-style-type: none;
+}
+.socialmedias a {
+  display: block;
+  text-align: center;
+  color: var(--letter);
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  background: var(--main);
+  border-radius: 100px;
+  margin: 5px 0;
+}
+.socialmedias .up {
+  margin-top: 40px;
+  background: gray;
+}
+footer {
+  text-align: center;
+  margin: 10px 0 0 0;
+  
+  color: var(--letter);
+  border-top: solid black 2px;
+}
+footer p {
+  padding: 30px;
+  background-color: var(--main);
+} */
